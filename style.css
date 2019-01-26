@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-part{
+    background-image: url('images/main.jpg');
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.icones{
+    padding-bottom: 2%;
+    text-align: center;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-right: 3px;
+    display: inline-block;
+}
+i{
+    padding-top: 6px;
+}
+.before-nav{
+    padding: 2%;
+}
+.large li, nav p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px;
+}
+nav p{
+    color: red;
+}
+.large{    
+    display: inline-block;
+}
+.logo{
+    background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    display: inline-block; 
+
+}
+nav{
+    width: 60%;
+    height: 60px;
+    background-color: aliceblue;
+    display: flex;    
+    align-items: center;
+    margin-left: 20%;
+}
+button{
+    outline: none;
+    border: none;
+    background-color:red;
+    padding: 5px; 
+}
+h2, p, button{
+    color: white;
+}
+h2{
+    border-bottom: 1px solid white;
+    width: 70%;
+    margin: 0 auto;
+}
+.text{
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    left: 40%;
+    width: 20%;
+    line-height: 2em;
+}
