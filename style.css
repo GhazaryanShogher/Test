@@ -84,3 +84,48 @@ h2{
     width: 20%;
     line-height: 2em;
 }
+.active{
+    color: red;
+    border-top: 3px solid red;
+    padding-top: 18px!important;
+    padding-bottom: 18px!important;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #7F7F7F;    
+    margin-right: 5px;
+}
+.slide div:first-child {
+    background-color: #191919; 
+}
+.slide{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    height: 55px;
+}
+.sizes{
+    height: 280px;
+    width: 250px;
+    margin-left: 15px;
+}
+#services,#portfolio{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+.second{
+    display: flex; 
+    flex-direction: column;   
+    justify-content: center;
+}
+#portfolio{
+    height: 650px;
+    box-sizing: border-box;
+    flex-flow: wrap;
+}
+.servises h2, .servises p{
+    color:black;
+}
