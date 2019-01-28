@@ -5,7 +5,6 @@ for(var i = 0; i<4; i++){
 }
 var classes = document.getElementsByClassName('sizes');
 classes[0].style.backgroundColor = "#1ABB99";
-classes[0].style.marginLeft = 0;
 classes[1].style.backgroundColor = "#E67F22";
 classes[2].style.backgroundColor = "#3497DA";
 classes[3].style.backgroundColor = "#2DCC72";
