@@ -36,7 +36,6 @@ i{
 .large li, nav p{
     display: inline-block;
     font-weight: 700;
-    font-size: 18px;
     padding: 5px;
 }
 nav p{
@@ -78,11 +77,9 @@ button{
     font-weight: 700;
 }
 .text{
-    position: absolute;
-    bottom: 8%;
+    padding: 1%;
     text-align: center;
-    left: 40%;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 .active{
     color: red;
@@ -113,6 +110,9 @@ button{
     margin-bottom: 15px;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sizes img{
     height: 20px;
@@ -125,6 +125,7 @@ button{
     margin: 0 auto;
     flex-flow: wrap;
     box-sizing: border-box;
+    padding: 12px 0;
 }
 .second{
     display: flex; 
