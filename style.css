@@ -37,9 +37,11 @@ i{
     display: inline-block;
     font-weight: 700;
     padding: 5px;
+    font-size: 12px;
 }
 nav p{
     color: red;
+    flex: 2;
 }
 .large{    
     display: inline-block;
@@ -48,18 +50,21 @@ nav p{
     background-image: url('images/logo.png');
     background-repeat: no-repeat;
     background-size:cover;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: inline-block; 
 
 }
+.logo>div{
+    flex: 7;
+}
 nav{
-    width: 60%;
-    height: 60px;
+    width: 80%;
+    height: 50px;
     background-color: aliceblue;
     display: flex;    
     align-items: center;
-    margin-left: 20%;
+    margin-left: 10%;
     flex-flow: wrap;
     box-sizing: border-box;
 }
@@ -84,8 +89,8 @@ button{
 .active{
     color: red;
     border-top: 3px solid red;
-    padding-top: 18px!important;
-    padding-bottom: 18px!important;
+    padding-top: 17px!important;
+    padding-bottom: 17px!important;
 }
 .circle{
     width: 15px;
